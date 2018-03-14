@@ -12,6 +12,7 @@ public class TestClass {
         logger.warn("!!!WARN!!!");
         logger.error("!!!ERROR!!!");
         logger.fatal("!!!FATAL!!!");
-    }
 
+        logger.trace("7800000008002001".matches("[\\d]{16}"));
+    }
 }
